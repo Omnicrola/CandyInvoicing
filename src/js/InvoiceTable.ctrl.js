@@ -3,35 +3,48 @@
  */
 (function (angular) {
     angular.module("CandyInvoice")
-        .controller('InvoiceController', ['$scope', function ($scope) {
-            $scope.invoices = [
-                {
-                    InvoiceId: '292CC',
-                    Date: '02/03/2015',
-                    Type: 'PICK',
-                    InvoiceAmount: 92.28,
-                    DueDate: '02/15/2015',
-                    Balance: 92.28,
-                    Discount: 0.92
-                },
-                {
-                    InvoiceId: 'FJ7634',
-                    Date: '02/03/2015',
-                    Type: 'IMPORT',
-                    InvoiceAmount: 924.28,
-                    DueDate: '02/15/2015',
-                    Balance: 0.0,
-                    Discount: 0.0
-                },
-                {
-                    InvoiceId: 'FJUE74',
-                    Date: '04/03/2015',
-                    Type: 'PICK',
-                    InvoiceAmount: 952.28,
-                    DueDate: '02/15/2015',
-                    Balance: 952.28,
-                    Discount: 0.0
-                },
-            ];
+        .controller('InvoicingController', ['$scope', '$http', function ($scope, $http) {
+            $scope.invoices = [];
+            $scope.sortType = 'Date';
+            $scope.sortReverse = false;
+            $scope.searchTerm = '';
+
+            $scope.getInvoices = function () {
+                var requestOptions = {
+                    method: 'GET',
+                    url: 'invoices.json'
+                };
+                $http(requestOptions)
+                    .success(function (data, status) {
+                        $scope.invoices = data;
+                    }).error(function (data, status) {
+                        alert("error\n" + status);
+                    });
+            };
+
+            $scope.invoiceTotal = function () {
+                var total = 0;
+                $scope.invoices.forEach(function (element) {
+                    total += element.InvoiceAmount;
+                });
+                return total;
+            };
+            $scope.totalBalance = function () {
+                var total = 0;
+                $scope.invoices.forEach(function (element) {
+                    total += element.Balance;
+                });
+                return total;
+            };
+            $scope.getDiscount = function (invoice) {
+                return invoice.Balance * 0.015;
+            };
+            $scope.countCurrentlySelected = function () {
+                var total = 0;
+                $scope.invoices.forEach(function (element) {
+                    total += element.selected ? 1 : 0;
+                });
+                return total;
+            };
         }]);
 })(window.angular);

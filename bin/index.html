@@ -8,94 +8,62 @@
 </head>
 <body>
 <div id="header">
-    <div class="bar1">
-        <div class="logo"></div>
-        <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li>
-                <ul class="flyout">
-                    <li>Hello, Username</li>
-                    <li>Last Login : Today</li>
-                    <li>Logout</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <div class="bar2">
-        <div class="search">
-            <input type="text" id="searchTerm">
-            <button id="searchButton">Search</button>
-        </div>
-    </div>
-    <div class="bar3">
-        <ul class="menu">
-            <li><a href="">Invoices</a></li>
-            <li><a href="">Receipts</a></li>
-        </ul>
-    </div>
+    <div class="logo"></div>
+    <div class="title">Candy Company Invoicing</div>
 </div>
-<div id="content">
+<div id="content" ng-app="CandyInvoice" ng-controller="InvoicingController" ng-init="getInvoices()">
     <h1>Invoices</h1>
     <table class="data">
         <thead>
         <tr>
-            <th>Open</th>
-            <th>Closed</th>
-            <th>Past Due</th>
+            <th>Total</th>
+            <th>Balance</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>$9999.99</td>
-            <td>$9999.99</td>
-            <td>$9999.99</td>
+            <td class="money">{{invoiceTotal() | currency}}</td>
+            <td class="money">{{totalBalance() | currency}}</td>
         </tr>
         </tbody>
     </table>
-    <h2>Selected (3)</h2>
-    <table id="invoiceTable" class="data">
+    <h2>Selected ({{countCurrentlySelected()}})</h2>
+    <table id="invoiceTable" class="data" width="700px">
         <thead>
         <tr>
             <th>&nbsp;</th>
-            <th>Invoice Id</th>
+            <th><a href="#" ng-click="sortType='InvoiceId'; sortReverse=!sortReverse;">Invoice Id</a><span
+                    ng-show="sortType=='InvoiceId'">X</span></th>
             <th>Date</th>
             <th>Type</th>
-            <th class="money">Amount</th>
+            <th class="right"><a href="#" ng-click="sortType='InvoiceAmount'; sortReverse=!sortReverse;">Amount</a><span
+                    ng-show="sortType=='InvoiceAmount'">X</span></th>
             <th>Due</th>
-            <th class="money">Balance</th>
-            <th class="money">Discount</th>
+            <th class="right"><a href="#" ng-click="sortType='Balance'; sortReverse=!sortReverse;">Balance</a><span
+                    ng-show="sortType=='Balance'">X</span></th>
+            <th class="right">Discount</th>
+        </tr>
+        <tr>
+            <th>&nbsp;</th>
+            <th><input ng-model="search.InvoiceId"/></th>
+            <th><input ng-model="search.Date"/></th>
+            <th><input ng-model="search.Type"/></th>
+            <th><input ng-model="search.InvoiceAmount"/></th>
+            <th><input ng-model="search.DueDate"/></th>
+            <th><input ng-model="search.Balance"/></th>
+            <th>&nbsp;</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td><input type="checkbox"></td>
-            <td>292CC</td>
-            <td>02/03/2015</td>
-            <td>PICK</td>
-            <td class="money">$92.28</td>
-            <td>02/15/2015</td>
-            <td class="money">$92.28</td>
-            <td class="money">$0.92</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox"></td>
-            <td>FJ7634</td>
-            <td>02/03/2015</td>
-            <td>IMPORT</td>
-            <td class="money">$924.28</td>
-            <td>02/15/2015</td>
-            <td class="money">$0.00</td>
-            <td class="money">$0.00</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox"></td>
-            <td>FJUE74</td>
-            <td>04/03/2015</td>
-            <td>PICK</td>
-            <td class="money">$952.28</td>
-            <td>02/15/2015</td>
-            <td class="money">$952.28</td>
-            <td class="money">$0.00</td>
+        <tr ng-repeat="invoice in invoices | orderBy:sortType:sortReverse | filter:search">
+            <td><input type="checkbox" ng-model="invoice.selected"/></td>
+            <td>{{invoice.InvoiceId}}</td>
+            <td>{{invoice.Date}}</td>
+            <td>{{invoice.Type}}</td>
+            <td class="money">{{invoice.InvoiceAmount | currency}}</td>
+            <td>{{invoice.DueDate}}</td>
+            <td class="money">{{invoice.Balance | currency}}</td>
+            <td class="money">{{getDiscount(invoice)| currency}}</td>
         </tr>
         </tbody>
     </table>

@@ -11,16 +11,12 @@ module.exports = function (grunt) {
                 options: {
                     spawn: false
                 }
-            }
-        },
-        typescript: {
-            base: {
-                src: ['src/ts/**/*.ts'],
-                dest: ['bin/js/candy.js'],
+            },
+            script: {
+                files: ['src/js/**/*.js'],
+                tasks: ['concat'],
                 options: {
-                    module: 'commonjs',
-                    target: 'es5',
-                    watch: 'src/ts'
+                    spawn: false
                 }
             }
         },
@@ -60,6 +56,6 @@ module.exports = function (grunt) {
 
     // tasks
     grunt.registerTask('default',
-        ['jshint', 'stylus', 'concat', 'watch']);
+        ['stylus', 'concat', 'watch']);
 
 };

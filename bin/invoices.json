@@ -1,0 +1,802 @@
+[
+  {
+	"InvoiceId": "Y51SS3T",
+	"Date": "08/23/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "526.92",
+	"DueDate": "11/08/2014",
+	"Balance": "967.81"
+  },
+  {
+	"InvoiceId": "F80HW8S",
+	"Date": "02/13/2016",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "818.99",
+	"DueDate": "03/29/2014",
+	"Balance": "413.09"
+  },
+  {
+	"InvoiceId": "W80ZF3G",
+	"Date": "04/16/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "046.31",
+	"DueDate": "06/09/2015",
+	"Balance": "611.37"
+  },
+  {
+	"InvoiceId": "S73FP0Y",
+	"Date": "12/05/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "745.56",
+	"DueDate": "02/27/2015",
+	"Balance": "598.95"
+  },
+  {
+	"InvoiceId": "D92HD8Q",
+	"Date": "11/05/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "886.50",
+	"DueDate": "01/08/2016",
+	"Balance": "149.05"
+  },
+  {
+	"InvoiceId": "S27ZM4O",
+	"Date": "07/28/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "531.60",
+	"DueDate": "05/31/2015",
+	"Balance": "030.12"
+  },
+  {
+	"InvoiceId": "O47DJ6R",
+	"Date": "08/19/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "067.46",
+	"DueDate": "11/05/2015",
+	"Balance": "226.32"
+  },
+  {
+	"InvoiceId": "D47SZ4W",
+	"Date": "05/29/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "548.66",
+	"DueDate": "05/07/2015",
+	"Balance": "059.45"
+  },
+  {
+	"InvoiceId": "E68WI3N",
+	"Date": "04/18/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "896.71",
+	"DueDate": "01/17/2016",
+	"Balance": "348.11"
+  },
+  {
+	"InvoiceId": "W70QM7D",
+	"Date": "05/23/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "441.92",
+	"DueDate": "06/01/2014",
+	"Balance": "507.28"
+  },
+  {
+	"InvoiceId": "O00YM5D",
+	"Date": "01/20/2016",
+	"Type": "IMPORT",
+	"InvoiceAmount": "778.44",
+	"DueDate": "04/10/2015",
+	"Balance": "188.04"
+  },
+  {
+	"InvoiceId": "B83EZ6J",
+	"Date": "03/19/2016",
+	"Type": "BULK",
+	"InvoiceAmount": "695.29",
+	"DueDate": "12/16/2015",
+	"Balance": "146.80"
+  },
+  {
+	"InvoiceId": "B31EN5K",
+	"Date": "12/27/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "985.06",
+	"DueDate": "04/15/2015",
+	"Balance": "683.82"
+  },
+  {
+	"InvoiceId": "Z48HX5N",
+	"Date": "12/17/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "721.73",
+	"DueDate": "01/30/2016",
+	"Balance": "871.91"
+  },
+  {
+	"InvoiceId": "Z49XA7B",
+	"Date": "03/01/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "944.85",
+	"DueDate": "09/11/2014",
+	"Balance": "157.26"
+  },
+  {
+	"InvoiceId": "X86AV9J",
+	"Date": "06/22/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "303.87",
+	"DueDate": "03/07/2016",
+	"Balance": "995.25"
+  },
+  {
+	"InvoiceId": "M95MM3J",
+	"Date": "09/27/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "976.63",
+	"DueDate": "01/26/2015",
+	"Balance": "905.52"
+  },
+  {
+	"InvoiceId": "U14JX7T",
+	"Date": "06/16/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "981.56",
+	"DueDate": "07/22/2015",
+	"Balance": "012.85"
+  },
+  {
+	"InvoiceId": "A32XY1Z",
+	"Date": "07/29/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "032.86",
+	"DueDate": "02/25/2016",
+	"Balance": "104.78"
+  },
+  {
+	"InvoiceId": "Y45WF7A",
+	"Date": "04/09/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "639.43",
+	"DueDate": "11/05/2015",
+	"Balance": "440.77"
+  },
+  {
+	"InvoiceId": "J56FO1M",
+	"Date": "10/18/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "369.85",
+	"DueDate": "11/18/2014",
+	"Balance": "520.71"
+  },
+  {
+	"InvoiceId": "G55NP3Z",
+	"Date": "09/23/2014",
+	"Type": "BULK",
+	"InvoiceAmount": "979.20",
+	"DueDate": "07/26/2014",
+	"Balance": "296.59"
+  },
+  {
+	"InvoiceId": "E89DJ3Y",
+	"Date": "05/26/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "798.18",
+	"DueDate": "08/03/2014",
+	"Balance": "401.62"
+  },
+  {
+	"InvoiceId": "U05VX3K",
+	"Date": "04/01/2014",
+	"Type": "BULK",
+	"InvoiceAmount": "293.76",
+	"DueDate": "02/27/2016",
+	"Balance": "955.75"
+  },
+  {
+	"InvoiceId": "A21DH1K",
+	"Date": "01/17/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "719.54",
+	"DueDate": "07/02/2015",
+	"Balance": "946.73"
+  },
+  {
+	"InvoiceId": "O93NK3P",
+	"Date": "07/14/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "828.87",
+	"DueDate": "06/29/2015",
+	"Balance": "285.72"
+  },
+  {
+	"InvoiceId": "C73ZD6T",
+	"Date": "10/06/2014",
+	"Type": "BULK",
+	"InvoiceAmount": "141.95",
+	"DueDate": "03/08/2016",
+	"Balance": "720.19"
+  },
+  {
+	"InvoiceId": "B90ZX9G",
+	"Date": "04/24/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "077.21",
+	"DueDate": "07/14/2014",
+	"Balance": "186.73"
+  },
+  {
+	"InvoiceId": "X01NT4J",
+	"Date": "05/26/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "514.18",
+	"DueDate": "04/04/2015",
+	"Balance": "475.10"
+  },
+  {
+	"InvoiceId": "S28BD8H",
+	"Date": "01/31/2016",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "838.86",
+	"DueDate": "09/01/2015",
+	"Balance": "101.42"
+  },
+  {
+	"InvoiceId": "J97ZE9V",
+	"Date": "06/20/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "554.71",
+	"DueDate": "01/13/2015",
+	"Balance": "209.01"
+  },
+  {
+	"InvoiceId": "Q81YR6L",
+	"Date": "10/24/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "755.91",
+	"DueDate": "08/29/2015",
+	"Balance": "236.35"
+  },
+  {
+	"InvoiceId": "P85KJ8K",
+	"Date": "04/01/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "534.11",
+	"DueDate": "06/23/2014",
+	"Balance": "354.37"
+  },
+  {
+	"InvoiceId": "G80HY3N",
+	"Date": "03/30/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "822.27",
+	"DueDate": "06/08/2015",
+	"Balance": "230.44"
+  },
+  {
+	"InvoiceId": "X16RO1T",
+	"Date": "07/15/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "269.56",
+	"DueDate": "09/10/2015",
+	"Balance": "852.61"
+  },
+  {
+	"InvoiceId": "E38GE1Q",
+	"Date": "03/02/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "775.88",
+	"DueDate": "04/29/2014",
+	"Balance": "879.32"
+  },
+  {
+	"InvoiceId": "U02UM9T",
+	"Date": "03/27/2016",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "141.21",
+	"DueDate": "07/22/2014",
+	"Balance": "770.35"
+  },
+  {
+	"InvoiceId": "Y47VL7Z",
+	"Date": "12/16/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "532.28",
+	"DueDate": "01/10/2015",
+	"Balance": "016.05"
+  },
+  {
+	"InvoiceId": "L80NE6H",
+	"Date": "08/09/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "672.16",
+	"DueDate": "03/03/2015",
+	"Balance": "929.75"
+  },
+  {
+	"InvoiceId": "S29VK5F",
+	"Date": "09/19/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "393.40",
+	"DueDate": "09/06/2015",
+	"Balance": "016.47"
+  },
+  {
+	"InvoiceId": "S18LA5H",
+	"Date": "05/26/2014",
+	"Type": "BULK",
+	"InvoiceAmount": "874.95",
+	"DueDate": "12/02/2015",
+	"Balance": "243.60"
+  },
+  {
+	"InvoiceId": "V56RN6U",
+	"Date": "05/15/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "665.43",
+	"DueDate": "08/16/2015",
+	"Balance": "628.43"
+  },
+  {
+	"InvoiceId": "Z57PW9A",
+	"Date": "09/09/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "703.16",
+	"DueDate": "03/29/2015",
+	"Balance": "079.69"
+  },
+  {
+	"InvoiceId": "W15PC8V",
+	"Date": "01/14/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "240.51",
+	"DueDate": "02/11/2016",
+	"Balance": "018.95"
+  },
+  {
+	"InvoiceId": "R82MO9D",
+	"Date": "08/10/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "631.38",
+	"DueDate": "07/07/2014",
+	"Balance": "316.79"
+  },
+  {
+	"InvoiceId": "W45QX1D",
+	"Date": "04/21/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "027.20",
+	"DueDate": "02/10/2015",
+	"Balance": "378.41"
+  },
+  {
+	"InvoiceId": "K18FZ6Q",
+	"Date": "06/06/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "415.55",
+	"DueDate": "01/22/2015",
+	"Balance": "682.34"
+  },
+  {
+	"InvoiceId": "X65SQ9K",
+	"Date": "08/26/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "840.54",
+	"DueDate": "07/25/2014",
+	"Balance": "011.26"
+  },
+  {
+	"InvoiceId": "U26RX3V",
+	"Date": "11/17/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "253.85",
+	"DueDate": "07/20/2015",
+	"Balance": "300.59"
+  },
+  {
+	"InvoiceId": "D41UY0R",
+	"Date": "08/10/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "591.55",
+	"DueDate": "10/10/2015",
+	"Balance": "657.32"
+  },
+  {
+	"InvoiceId": "U10HM9X",
+	"Date": "06/09/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "101.10",
+	"DueDate": "03/26/2016",
+	"Balance": "782.66"
+  },
+  {
+	"InvoiceId": "C87VI5K",
+	"Date": "06/21/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "101.64",
+	"DueDate": "12/06/2014",
+	"Balance": "222.91"
+  },
+  {
+	"InvoiceId": "B69KM9O",
+	"Date": "07/18/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "909.89",
+	"DueDate": "01/10/2016",
+	"Balance": "033.16"
+  },
+  {
+	"InvoiceId": "P11TB8F",
+	"Date": "05/15/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "360.71",
+	"DueDate": "11/22/2014",
+	"Balance": "502.53"
+  },
+  {
+	"InvoiceId": "Z89CY9Y",
+	"Date": "05/12/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "072.69",
+	"DueDate": "07/16/2014",
+	"Balance": "721.45"
+  },
+  {
+	"InvoiceId": "Y36MZ1T",
+	"Date": "09/10/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "056.67",
+	"DueDate": "02/26/2016",
+	"Balance": "341.89"
+  },
+  {
+	"InvoiceId": "P04WG8J",
+	"Date": "03/19/2016",
+	"Type": "IMPORT",
+	"InvoiceAmount": "590.98",
+	"DueDate": "11/15/2015",
+	"Balance": "205.97"
+  },
+  {
+	"InvoiceId": "M93GV9H",
+	"Date": "11/07/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "567.07",
+	"DueDate": "08/28/2014",
+	"Balance": "459.78"
+  },
+  {
+	"InvoiceId": "N63VN5T",
+	"Date": "08/21/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "604.72",
+	"DueDate": "07/22/2014",
+	"Balance": "855.56"
+  },
+  {
+	"InvoiceId": "D68XE3T",
+	"Date": "11/24/2014",
+	"Type": "BULK",
+	"InvoiceAmount": "647.39",
+	"DueDate": "07/27/2014",
+	"Balance": "365.21"
+  },
+  {
+	"InvoiceId": "U27OC9H",
+	"Date": "01/08/2016",
+	"Type": "BULK",
+	"InvoiceAmount": "256.05",
+	"DueDate": "07/13/2015",
+	"Balance": "923.60"
+  },
+  {
+	"InvoiceId": "I57MZ5I",
+	"Date": "01/01/2016",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "941.40",
+	"DueDate": "02/05/2016",
+	"Balance": "914.82"
+  },
+  {
+	"InvoiceId": "H26BC7W",
+	"Date": "05/12/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "984.69",
+	"DueDate": "11/14/2014",
+	"Balance": "682.31"
+  },
+  {
+	"InvoiceId": "Q53FH0Z",
+	"Date": "09/04/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "697.11",
+	"DueDate": "06/11/2014",
+	"Balance": "231.78"
+  },
+  {
+	"InvoiceId": "U37CW6B",
+	"Date": "01/13/2016",
+	"Type": "IMPORT",
+	"InvoiceAmount": "472.99",
+	"DueDate": "06/21/2014",
+	"Balance": "634.61"
+  },
+  {
+	"InvoiceId": "X43QX0A",
+	"Date": "04/25/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "834.85",
+	"DueDate": "12/10/2014",
+	"Balance": "236.23"
+  },
+  {
+	"InvoiceId": "E58WW0V",
+	"Date": "05/27/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "949.89",
+	"DueDate": "05/29/2014",
+	"Balance": "830.10"
+  },
+  {
+	"InvoiceId": "M23GP9G",
+	"Date": "08/10/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "162.44",
+	"DueDate": "01/18/2015",
+	"Balance": "654.54"
+  },
+  {
+	"InvoiceId": "E50HR2W",
+	"Date": "08/24/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "940.32",
+	"DueDate": "10/03/2015",
+	"Balance": "420.24"
+  },
+  {
+	"InvoiceId": "T52IZ2B",
+	"Date": "06/28/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "684.21",
+	"DueDate": "10/23/2015",
+	"Balance": "234.47"
+  },
+  {
+	"InvoiceId": "U65MD5D",
+	"Date": "08/29/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "322.05",
+	"DueDate": "04/07/2014",
+	"Balance": "039.25"
+  },
+  {
+	"InvoiceId": "V01UU2I",
+	"Date": "10/27/2014",
+	"Type": "BULK",
+	"InvoiceAmount": "051.65",
+	"DueDate": "05/19/2015",
+	"Balance": "332.92"
+  },
+  {
+	"InvoiceId": "B39WP3H",
+	"Date": "02/26/2016",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "106.83",
+	"DueDate": "02/18/2016",
+	"Balance": "510.27"
+  },
+  {
+	"InvoiceId": "L17DP5H",
+	"Date": "07/07/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "650.04",
+	"DueDate": "02/08/2015",
+	"Balance": "631.60"
+  },
+  {
+	"InvoiceId": "S22CM3I",
+	"Date": "04/16/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "894.10",
+	"DueDate": "07/13/2014",
+	"Balance": "871.18"
+  },
+  {
+	"InvoiceId": "F02RE8A",
+	"Date": "07/06/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "566.17",
+	"DueDate": "06/21/2014",
+	"Balance": "993.73"
+  },
+  {
+	"InvoiceId": "X17EY1S",
+	"Date": "01/12/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "762.28",
+	"DueDate": "02/05/2016",
+	"Balance": "299.33"
+  },
+  {
+	"InvoiceId": "Z84HK7L",
+	"Date": "04/08/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "508.49",
+	"DueDate": "05/09/2014",
+	"Balance": "041.21"
+  },
+  {
+	"InvoiceId": "S80BK8J",
+	"Date": "12/23/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "322.78",
+	"DueDate": "09/05/2015",
+	"Balance": "915.48"
+  },
+  {
+	"InvoiceId": "W47SY6I",
+	"Date": "11/16/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "627.84",
+	"DueDate": "10/29/2014",
+	"Balance": "785.94"
+  },
+  {
+	"InvoiceId": "M67BT8N",
+	"Date": "01/05/2016",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "103.05",
+	"DueDate": "01/31/2015",
+	"Balance": "295.12"
+  },
+  {
+	"InvoiceId": "F03BH4E",
+	"Date": "12/23/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "009.76",
+	"DueDate": "12/28/2015",
+	"Balance": "703.27"
+  },
+  {
+	"InvoiceId": "X14VB5H",
+	"Date": "01/10/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "410.49",
+	"DueDate": "10/19/2014",
+	"Balance": "257.09"
+  },
+  {
+	"InvoiceId": "Z30AE7M",
+	"Date": "11/25/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "372.70",
+	"DueDate": "04/27/2015",
+	"Balance": "353.82"
+  },
+  {
+	"InvoiceId": "A49BX7E",
+	"Date": "06/17/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "623.92",
+	"DueDate": "08/08/2015",
+	"Balance": "495.06"
+  },
+  {
+	"InvoiceId": "W88YO8L",
+	"Date": "09/11/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "096.88",
+	"DueDate": "07/20/2014",
+	"Balance": "475.35"
+  },
+  {
+	"InvoiceId": "X91GT1O",
+	"Date": "01/20/2016",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "293.59",
+	"DueDate": "11/25/2015",
+	"Balance": "037.20"
+  },
+  {
+	"InvoiceId": "N75TK6O",
+	"Date": "04/06/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "861.50",
+	"DueDate": "03/09/2015",
+	"Balance": "318.20"
+  },
+  {
+	"InvoiceId": "O01OK7R",
+	"Date": "06/29/2014",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "564.48",
+	"DueDate": "09/10/2015",
+	"Balance": "849.59"
+  },
+  {
+	"InvoiceId": "X72YF8S",
+	"Date": "08/08/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "787.46",
+	"DueDate": "11/03/2014",
+	"Balance": "576.51"
+  },
+  {
+	"InvoiceId": "O83FK4F",
+	"Date": "10/12/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "006.39",
+	"DueDate": "08/28/2015",
+	"Balance": "663.60"
+  },
+  {
+	"InvoiceId": "A06AC8D",
+	"Date": "07/28/2015",
+	"Type": "IMPORT",
+	"InvoiceAmount": "083.52",
+	"DueDate": "09/26/2015",
+	"Balance": "491.88"
+  },
+  {
+	"InvoiceId": "X53TP9S",
+	"Date": "07/27/2014",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "371.30",
+	"DueDate": "07/27/2015",
+	"Balance": "716.27"
+  },
+  {
+	"InvoiceId": "H64TK0R",
+	"Date": "09/03/2015",
+	"Type": "DOMESTIC",
+	"InvoiceAmount": "816.14",
+	"DueDate": "05/09/2015",
+	"Balance": "435.89"
+  },
+  {
+	"InvoiceId": "L33PU2F",
+	"Date": "12/17/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "957.26",
+	"DueDate": "10/19/2015",
+	"Balance": "720.41"
+  },
+  {
+	"InvoiceId": "Z70YY7Q",
+	"Date": "11/09/2015",
+	"Type": "CUSTOM",
+	"InvoiceAmount": "333.47",
+	"DueDate": "07/11/2014",
+	"Balance": "232.96"
+  },
+  {
+	"InvoiceId": "O67SW0K",
+	"Date": "12/05/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "664.85",
+	"DueDate": "09/13/2015",
+	"Balance": "288.83"
+  },
+  {
+	"InvoiceId": "V36CU2A",
+	"Date": "02/25/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "631.41",
+	"DueDate": "04/02/2014",
+	"Balance": "975.33"
+  },
+  {
+	"InvoiceId": "T67KE0F",
+	"Date": "06/29/2014",
+	"Type": "IMPORT",
+	"InvoiceAmount": "333.17",
+	"DueDate": "06/10/2015",
+	"Balance": "770.45"
+  },
+  {
+	"InvoiceId": "F51HF0N",
+	"Date": "09/28/2015",
+	"Type": "BULK",
+	"InvoiceAmount": "741.05",
+	"DueDate": "04/06/2014",
+	"Balance": "623.69"
+  }
+]
