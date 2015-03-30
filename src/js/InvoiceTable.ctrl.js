@@ -21,21 +21,36 @@
                         alert("error\n" + status);
                     });
             };
+            function sumTotal(attributeName) {
+                var total = 0;
+                $scope.invoices.forEach(function (element) {
+                    total += parseFloat(element[attributeName]);
+                });
+                return total;
+            }
+
+            function sumTotalSelected(attributeName) {
+                var total = 0;
+                $scope.invoices.forEach(function (element) {
+                    if (element.selected) {
+                        total += parseFloat(element[attributeName]);
+                    }
+                });
+                return total;
+            }
 
             $scope.invoiceTotal = function () {
-                var total = 0;
-                $scope.invoices.forEach(function (element) {
-                    total += element.InvoiceAmount;
-                });
-                return total;
+                return sumTotal('InvoiceAmount');
             };
             $scope.totalBalance = function () {
-                var total = 0;
-                $scope.invoices.forEach(function (element) {
-                    total += element.Balance;
-                });
-                return total;
+                return sumTotal('Balance');
             };
+            $scope.totalSelected = function () {
+                return sumTotalSelected('InvoiceAmount');
+            }
+            $scope.totalSelectedBalance = function () {
+                return sumTotalSelected('Balance');
+            }
             $scope.getDiscount = function (invoice) {
                 return invoice.Balance * 0.015;
             };

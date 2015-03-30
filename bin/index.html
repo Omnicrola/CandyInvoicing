@@ -18,12 +18,18 @@
         <tr>
             <th>Total</th>
             <th>Balance</th>
+            <th>&nbsp;</th>
+            <th>Selected Total</th>
+            <th>Selected Balance</th>
         </tr>
         </thead>
         <tbody>
         <tr>
             <td class="money">{{invoiceTotal() | currency}}</td>
             <td class="money">{{totalBalance() | currency}}</td>
+            <td class="money">&nbsp;</td>
+            <td class="money">{{totalSelected() | currency}}</td>
+            <td class="money">{{totalSelectedBalance() | currency}}</td>
         </tr>
         </tbody>
     </table>
