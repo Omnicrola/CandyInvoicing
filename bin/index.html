@@ -25,11 +25,11 @@
         </thead>
         <tbody>
         <tr>
-            <td class="money">{{invoiceTotal() | currency}}</td>
-            <td class="money">{{totalBalance() | currency}}</td>
-            <td class="money">&nbsp;</td>
-            <td class="money">{{totalSelected() | currency}}</td>
-            <td class="money">{{totalSelectedBalance() | currency}}</td>
+            <td class="number">{{invoiceTotal() | currency}}</td>
+            <td class="number">{{totalBalance() | currency}}</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">{{totalSelected() | currency}}</td>
+            <td class="number">{{totalSelectedBalance() | currency}}</td>
         </tr>
         </tbody>
     </table>
@@ -63,16 +63,52 @@
         <tbody>
         <tr ng-repeat="invoice in invoices | orderBy:sortType:sortReverse | filter:search">
             <td><input type="checkbox" ng-model="invoice.selected"/></td>
-            <td>{{invoice.InvoiceId}}</td>
+            <td><a href="#" ng-click="showInvoice(invoice.InvoiceId);">{{invoice.InvoiceId}}</a></td>
             <td>{{invoice.Date}}</td>
             <td>{{invoice.Type}}</td>
-            <td class="money">{{invoice.InvoiceAmount | currency}}</td>
+            <td class="number">{{invoice.InvoiceAmount | currency}}</td>
             <td>{{invoice.DueDate}}</td>
-            <td class="money">{{invoice.Balance | currency}}</td>
-            <td class="money">{{getDiscount(invoice)| currency}}</td>
+            <td class="number">{{invoice.Balance | currency}}</td>
+            <td class="number">{{getDiscount(invoice)| currency}}</td>
         </tr>
         </tbody>
     </table>
+    <div ng-controller="SingleInvoiceController" ng-show="isVisible" class="lightbox">
+        <div class="innerContent">
+            <button ng-click="isVisible=false" class="close">X</button>
+            <h1>Invoice {{invoice.InvoiceId}}</h1>
+            <div class="header">
+            <div class="row"><div class="label">Date:</div><div class="data">{{invoice.Date}}</div></div>
+            <div class="row"><div class="label">Type:</div><div class="data">{{invoice.Type}}</div></div>
+            <div class="row"><div class="label">Amount:</div><div class="data">{{invoice.InvoiceAmount | currency}}</div></div>
+            <div class="row"><div class="label">Balance:</div><div class="data">{{invoice.Balance | currency}}</div></div>
+            </div>
+            <h2>Line Items</h2>
+
+            <div class="scroll">
+                <table class="data">
+                    <thead>
+                    <tr>
+                        <th>SKU</th>
+                        <th>QTY</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Shipped</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="item in invoice.LineItems">
+                        <td>{{item.SKU}}</td>
+                        <td class="number">{{item.QTY}}</td>
+                        <td>{{item.Description}}</td>
+                        <td>{{item.Price | currency}}</td>
+                        <td>{{item.Shipped ? 'Y' : 'N'}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="footer">
     <ul>
