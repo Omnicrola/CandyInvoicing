@@ -1,0 +1,80 @@
+{
+  "InvoiceId": "S18LA5H",
+  "Date": "05/26/2014",
+  "Type": "BULK",
+  "InvoiceAmount": "874.95",
+  "DueDate": "12/02/2015",
+  "Balance": "243.60",
+  "LineItems": [
+    {
+      "SKU": "F8R68K5",
+      "QTY": 233,
+      "Description": "et risus. Quisque libero lacus,",
+      "Price": "26.212",
+      "Shipped": "true"
+    },
+    {
+      "SKU": "V5Z32A7",
+      "QTY": 76,
+      "Description": "egestas. Sed pharetra, felis eget",
+      "Price": "10.170",
+      "Shipped": "false"
+    },
+    {
+      "SKU": "N8M49I0",
+      "QTY": 162,
+      "Description": "sapien, gravida non, sollicitudin a,",
+      "Price": "62.211",
+      "Shipped": "true"
+    },
+    {
+      "SKU": "Q7P87O5",
+      "QTY": 212,
+      "Description": "arcu vel quam dignissim pharetra.",
+      "Price": "13.618",
+      "Shipped": "false"
+    },
+    {
+      "SKU": "L7F09A0",
+      "QTY": 139,
+      "Description": "rutrum magna. Cras convallis convallis",
+      "Price": "56.268",
+      "Shipped": "true"
+    },
+    {
+      "SKU": "G9C34O4",
+      "QTY": 22,
+      "Description": "ac risus. Morbi metus. Vivamus",
+      "Price": "24.932",
+      "Shipped": "false"
+    },
+    {
+      "SKU": "W9L74J0",
+      "QTY": 37,
+      "Description": "pellentesque, tellus sem mollis dui,",
+      "Price": "59.696",
+      "Shipped": "false"
+    },
+    {
+      "SKU": "J2H19M2",
+      "QTY": 114,
+      "Description": "a, scelerisque sed, sapien. Nunc",
+      "Price": "97.533",
+      "Shipped": "false"
+    },
+    {
+      "SKU": "J0C88Z6",
+      "QTY": 101,
+      "Description": "id, blandit at, nisi. Cum",
+      "Price": "60.644",
+      "Shipped": "true"
+    },
+    {
+      "SKU": "R9G04H1",
+      "QTY": 30,
+      "Description": "Phasellus in felis. Nulla tempor",
+      "Price": "84.465",
+      "Shipped": "false"
+    }
+  ]
+}
